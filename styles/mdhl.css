@@ -24,7 +24,6 @@ p{
     height:35vh;
     object-fit:cover;
     object-position:0% 25%;
-    opacity:1.8;
 }
 .h_logo{
     display:inline-block;
@@ -86,5 +85,4 @@ p{
 .m_ptotal a{
     text-decoration:underline;
     text-decoration-color: black;
-    -moz-text-decoration-color: black;
 }
