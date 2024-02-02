@@ -6,6 +6,9 @@
 p{
     font-size:17px;
 }
+.img_1,.img_2,.img_3{
+    display:none;
+}
 .h_maintitle{
     position:fixed;
     font-size:51px;

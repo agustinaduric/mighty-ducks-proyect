@@ -12,7 +12,7 @@ p{
     top:100px;
     left:168px;
     font-size:51px;
-    width:100%;
+    width:75%;
 }
 .h_banner{
     width:75%;
@@ -49,6 +49,27 @@ p{
     text-decoration: none;
     color: black;
 }
+.img_1{
+    position:absolute;
+    top:390px;
+    left:847px;
+    width:180px;
+    height:130px;
+}
+.img_2{
+    position:absolute;
+    top:535px;
+    left:847px;
+    width:180px;
+    height:130px;
+}
+.img_3{
+    position:absolute;
+    top:490px;
+    left:540px;
+    width:180px;
+    height:130px;
+}
 .m_sub{
     text-align:center;
     color:white;
@@ -77,7 +98,7 @@ p{
     display: inline-block;
     position: absolute;
     top:363px;
-    left: 280px;
+    left:460px;
 }
 .m_ptotal p{
     margin-top:25px;
