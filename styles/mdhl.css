@@ -78,7 +78,7 @@ p{
     padding:6px 0px;
     width:75%;
 }
-.m_container{
+.m_container_1, .m_container_2{
     display:inline-block;
     width:70%;
     position:relative;
