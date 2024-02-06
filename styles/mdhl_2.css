@@ -2,24 +2,24 @@
     padding:0px;
     margin:0px;
     box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 .p_layout{
-    width:100%;
-    min-height:100vh;
-    background-color:beige;
     display:flex;
     flex-direction:column;
+    width:100%;
+    min-height:100vh;
+    background-color:#F2F2F2;
 }
 p{
-    font-size:17px;
+    font-size:15px;
 }
 .h_logo{
     position:fixed;
-    left:10px;
+    left:5px;
     top:0px;
-    width:74px;
-    height:66px;
-    background-color:beige;
+    width:85px;
+    height:70px;
 }
 .h_maintitle{
     position:fixed;
@@ -29,7 +29,7 @@ p{
     font:bold;
     width:100%;
     text-align:left;
-    background-color:beige;
+    background-color:#F2F2F2;
 }
 .h_banner{
     width:100%;
@@ -41,38 +41,31 @@ p{
 }
 .h_nav{
     position:fixed;
-    margin-left:860px;
+    margin-left:840px;
     margin-top:30px;
-    background-color:beige;
-    padding:5px;
-}
-.h_a_home,.h_a_about,.h_a_contact{
-    text-decoration:none;
-    transform:none;
-    color:black;
+    background-color:#F2F2F2;
+    padding:2px;
 }
 .h_nav a{
-    font-size:17px;
-    margin:0px 10px;
+    font-size:15px;
     text-decoration:none;
     padding:5px;
-    color: rgb(139, 42, 42);
-    border: 1px solid rgb(139, 42, 42);
-    transition: transform 0.3s, color 0.3s, background-color 0.3s;
+    color:#731627;
+    border:1px solid #731627;
 }
 .h_nav a:hover{
-    background: none;
-    transform: scale(.9);
-    color:beige;
-    background-color:rgb(139, 42, 42);
+    background:none;
+    transform:scale(.9);
+    color:#F2F2F2;
+    background-color:#731627;
 }
 .m_layout{
     flex-grow:1;
 }
 .m_sub{
     text-align:center;
-    color:black;
-    border-bottom:1px solid black;
+    color:#6C7173;
+    border-bottom:1px solid #253659;
     border-radius:8px;
     margin-top:2px;
     padding-bottom:3px;
@@ -85,7 +78,6 @@ p{
     width:100%;
 }
 .m_section{
-    top:12px;
     padding:5px;
     margin-top:10px;
 }
@@ -132,9 +124,9 @@ p{
     text-align:center;
 }
 .m_ptotal a{
-    color:rgb(139, 42, 42);
+    color:#253659;
     text-decoration:underline;
-    text-decoration-color:black;
+    text-decoration-color:#222226;
 }
 .img_3{
     display:flex;
