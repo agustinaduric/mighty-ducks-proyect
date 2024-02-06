@@ -49,3 +49,6 @@ ul{
 .list_type{
     list-style-type:lower-alpha;
 }
+.none_li{
+    list-style-type:none;
+}
