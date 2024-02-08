@@ -1,0 +1,97 @@
+.f_layout{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:90vw;
+}
+.f_container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+form{
+    border:1px dotted #253659;
+    padding:10px;
+    width:60vw;
+    margin-top:10px;
+}
+.principal_div{
+    display: flex;
+    flex-direction: column;
+    gap:9px;
+    padding-top:9px;
+}
+.second_divider{
+    margin-top:10px;
+}
+.row_divider{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.row_divider #name,#surname{
+    width:32%;
+}
+.row_divider label[for=surname],.row_divider label[for=code],.row_divider label[for=gender_f],.radio_options{
+    margin-left:10px;
+}
+.row_divider #address{
+    display: flex;
+    justify-content:left;
+    width:83%;
+}
+.row_divider #city,#code,#birth{
+    width:40%;
+}
+.no_bold{
+    font-weight:normal;
+}
+.second_divider{
+    display:flex;
+    padding:9px;
+    gap:6px;
+}
+.third_divider{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:35%;
+    padding:6px; 
+}
+.column_divider{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+.forth_divider{
+    display: flex;
+    flex-direction:row;
+    padding:6px;
+    gap:6px;
+}
+.forth_divider p{
+    font-style: italic;
+    text-indent:15px;
+    text-align: justify;
+    width:87ch;
+}
+.p_indent{
+    text-indent:5px;
+}
+.row_divider #signature{
+    width:60%;
+    margin-top:3px;
+}
+.row_divider #d-sing{
+    width:40%;
+}
+.submit_button{
+    display: flex;
+    flex-direction:column;
+    background-color:#253659;
+    color:white;
+    align-items:center;
+    width:100%;
+    margin-top:20px;
+    cursor:pointer;
+}

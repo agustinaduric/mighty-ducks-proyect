@@ -9,9 +9,16 @@
     flex-direction:column;
     align-items:center;
 }
-table{
-    width:100%;
+.m_title{
+    font-weight:normal;
+    font-style:italic;
+}
+.t1{
+    table-layout:fixed;
     text-align:right;
+    padding: 5px;
+    border:1px dotted #253659;
+    width:100%;
 }
 td:first-child {
   text-align:right;
@@ -30,26 +37,23 @@ caption{
     gap:8px;
     margin-top:25px;
 }
-.text_container,.p_container{
-    display:flex;
-    flex-direction:column;
-    gap:8px;
-    margin-top:20px;
+.t2{
+    table-layout: fixed;
+    border-collapse: collapse;
+    gap:5px;
+    border:1px dotted #253659;
+    width:100%;
+    margin-bottom:5px;
 }
-.text{
-    font-weight:bold;
+.t2 th{
+    font-weight: bold;
+    text-align:center;
 }
-.a_container{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    width:65%;
+.t2 td{
+    text-align:center;
+    padding:2px;
 }
-.a_container a{
-    text-decoration:none;
-    color: black;
-}
-.m_title{
-    font-weight:normal;
-    font-style:italic;
+iframe{
+    width:150px;
+    height:110px;
 }

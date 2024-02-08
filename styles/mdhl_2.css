@@ -1,3 +1,4 @@
+/*All pages*/
 *{
     padding:0px;
     margin:0px;
@@ -14,6 +15,20 @@
 p{
     font-size:15px;
 }
+.m_layout{
+    flex-grow:1;
+}
+.m_sub{
+    text-align:center;
+    color:#6C7173;
+    border-bottom:1px solid #253659;
+    border-radius:8px;
+    margin-top:2px;
+    padding-bottom:3px;
+    width:100%;
+    font-size:30px;
+}
+/*header part*/
 .h_logo{
     position:fixed;
     left:5px;
@@ -52,6 +67,7 @@ p{
     padding:5px;
     color:#731627;
     border:1px solid #731627;
+    cursor:pointer;
 }
 .h_nav a:hover{
     background:none;
@@ -59,23 +75,12 @@ p{
     color:#F2F2F2;
     background-color:#731627;
 }
-.m_layout{
-    flex-grow:1;
-}
-.m_sub{
-    text-align:center;
-    color:#6C7173;
-    border-bottom:1px solid #253659;
-    border-radius:8px;
-    margin-top:2px;
-    padding-bottom:3px;
-    width:100%;
-    font-size:30px;
-}
+/*Index page*/
 .m_container_1{
     display:flex;
     justify-content:space-evenly;
     width:100%;
+    height:45vh;
 }
 .m_section{
     padding:5px;
@@ -93,6 +98,7 @@ p{
     height:130px;
     margin-top:30px;
 }
+/*About page*/
 .m_container_2{
     display:flex;
     flex-direction:column;
@@ -114,10 +120,12 @@ p{
     margin-left:70px;
     width:60ch;
 }
+/*Contact page*/
 .m_ptotal{
     display:flex;
     flex-direction:column;
     width:100%;
+    height:45vh;
 }
 .m_ptotal p{
     margin-top:15px;
@@ -134,4 +142,30 @@ p{
     margin-top:15px;
     width:180px;
     height:130px;
+}
+/*Table page*/
+.p_container{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-bottom:20px;
+}
+.text_container{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-top:20px;
+}
+.text{
+    font-weight:bold;
+}
+.a_container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:65%;
+}
+.a_container a{
+    text-decoration:none;
+    color: black;
 }

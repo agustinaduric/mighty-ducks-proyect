@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mighty Ducks Hockey League's information">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo_mighty_ducks-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/mdhl_2.css">
+    <link rel="stylesheet" href="./styles/registration.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="h_maintitle"> Mighty Ducks Hockey League</h1>
+        <img class="h_logo" src="./assets/logo_mighty_ducks-01.png" alt="Mighty Ducks logo">
+        <nav class="h_nav">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./game_info.html">Game Info</a>
+            <a href="#">Registration</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <img class="h_banner" src="assets/design1_image1.jpg" alt="Two players on the hockey match">
+    </header>
+    <main>
+        <div class="m_layout">
+            <h2 class="m_sub">Registration Form</h2>
+            <div class="f_container">
+                <div class="f_layout">
+                    <form action="./show_data.html" method="get">
+                        <div class="section_divider">
+                            <div class="row_divider">
+                                <label for="name">Player's First Name:</label>
+                                <input type="text" id="name" name="Name">
+                                <label for="surname">Last Name:</label>
+                                <input type="text" id="surname" name="Surname">
+                            </div>
+                        </div>
+                        <div class="principal_div">
+                            <div class="row_divider">
+                                <label for="address">Street Address:</label>
+                                <input type="text" id="address" name="Address">
+                            </div>
+                            <div class="row_divider">
+                                <label for="city">City:</label>
+                                <input type="text" id="city" name="City">
+                                <label for="code">Zip Code:</label>
+                                <input type="text" id="code" name="ZipCode">
+                            </div>
+                            <div class="row_divider">
+                                <label for="birth">Birth Day:</label>
+                                <input type="date" id="birth" name="Birthday">
+                                <h4 class="no_bold">Gender:</h4>
+                                <div class="radio_options">
+                                    <label for="gender_f">Female</label>
+                                    <input type="radio" id="gender_f" name="Gender" value="Female">
+                                </div>
+                                <div class="radio_options">
+                                    <label for="gender_m">Male</label>
+                                    <input type="radio" id="gender_m" name="Gender" value="Male">
+                                </div>
+                            </div>
+                            <div class="row_divider">
+                                <h4 class="no_bold">Grade:</h4>
+                                <div class="radio_options">
+                                    <label for="pre_s">Pre-School:</label>
+                                    <input type="radio" id="pre_s" name="Grade" value="Pre-School">
+                                </div>
+                                <div class="radio_options">
+                                    <input type="radio" id="fst" name="Grade" value="1st">
+                                    <label for="fst">1st</label>
+                                </div>
+                                <div class="radio_options">
+                                    <input type="radio" id="snd" name="Grade" value="2nd">
+                                    <label for="snd">2nd</label>
+                                </div>
+                                <div class="radio_options">
+                                    <input type="radio" id="trd" name="Grade" value="3rd">
+                                    <label for="trd">3rd</label>
+                                </div>
+                                <div class="radio_options">
+                                    <input type="radio" id="fo_th" name="Grade" value="4th">
+                                    <label for="fo_th">4th</label>
+                                </div>
+                                <div class="radio_options">
+                                    <input type="radio" id="fi_th" name="Grade" value="5th">
+                                    <label for="fi_th">5th</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="principal_div">
+                            <h4>Which elementary school do you live near?</h4>
+                            <div class="forth_divider">
+                                <h5>Closest school:</h5>
+                                <select name="School">
+                                    <option selected disabled>Select a school</option>
+                                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                                    <option value="Greenbay">Greenbay</option>
+                                    <option value="Howard A Yeager">Howard A Yeager</option>
+                                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                                    <option value="North Elementary">North Elementary</option>
+                                    <option value="South Elementary">South Elementary</option>
+                                    <option value="None">None</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="principal_div">
+                            <h4>What position(s) do you normally play?</h4>
+                            <div class="third_divider">
+                                <div class="column_divider">
+                                    <div class="row_divider">
+                                        <label for="forward">Forward</label>
+                                        <input type="checkbox" id="forward" name="Position" value="Forward">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="defense">Defense</label>
+                                        <input type="checkbox" id="defense" name="Position" value="Defense">
+                                    </div>
+                                </div>
+                                <div class="column_divider">
+                                    <div class="row_divider">
+                                        <label for="mid">Midfield</label>
+                                        <input type="checkbox" id="mid" name="Position" value="Midfield">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="goal">Goalkeeper</label>
+                                        <input type="checkbox" id="goal" name="Position" value="Goalkeeper">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="principal_div">
+                            <h4>Uniform Size:</h4>
+                            <div class="third_divider">
+                                <div class="colum_divider">
+                                    <div class="row_divider">
+                                        <label for="y_small">Youth Small</label>
+                                        <input type="radio" id="y_small" name="Size" value="Youth Small">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="y_med">Youth Medium</label>
+                                        <input type="radio" id="y_med" name="Size" value="Youth Medium">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="y_large">Youth Large</label>
+                                        <input type="radio" id="y_large" name="Size" value="Youth Large">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="small">Small</label>
+                                        <input type="radio" id="small" name="Size" value="Small">
+                                    </div>
+                                </div>
+                                <div class="colum_divider">
+                                    <div class="row_divider">
+                                        <label for="med">Medium</label>
+                                        <input type="radio" id="med" name="Size" value="Medium">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="large">Large</label>
+                                        <input type="radio" id="large" name="Size" value="Large">
+                                    </div>
+                                    <div class="row_divider">
+                                        <label for="e_large">Extra Large</label>
+                                        <input type="radio" id="e_large" name="Size" value="Extra Large">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="principal_div">
+                            <fieldset>
+                                <h4 class="p_indent">Permission to Play</h4>
+                                <div class="forth_divider">
+                                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and
+                                        I will abide by all
+                                        the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the
+                                        possibility of physical
+                                        injury associated with hockey and in consideration for the “League” accepting
+                                        the registrant for its
+                                        hockey programs and activities, I hereby release, discharge, and/or otherwise
+                                        indemnify MDHL, their
+                                        employees and associated personnel and volunteers, including the facilities used
+                                        for practices and
+                                        games, against any claim by or on behalf of the registrant as a result of the
+                                        registrant's
+                                        participation in the program and or being transported to or from MDHL sponsored
+                                        activities, which
+                                        transportation. By entering your name below, I hereby agree and authorize the
+                                        above. In addition, by signing
+                                        below, also acknowledge that I have read the cancellation policy and agree to
+                                        its terms. </p>
+                                </div>
+                            </fieldset>
+                            <div class="row_divider">
+                                <label for="signature">Parent/Guardian Signature:</label>
+                                <input type="text" id="signature" name="Signature">
+                            </div>
+                            <div class="row_divider">
+                                <label for="d-sing">Date:</label>
+                                <input type="date" id="d-sing" name="Date">
+                            </div>
+                        </div>
+                        <input type="submit" value="Submit" class="submit_button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
