@@ -46,14 +46,18 @@ caption{
     margin-bottom:5px;
 }
 .t2 th{
+    font-size:95%;
     font-weight: bold;
-    text-align:center;
+    text-align:left;
+    padding-left:8px;
+    width:10%;
 }
 .t2 td{
+    font-size:90%;
     text-align:center;
     padding:2px;
 }
 iframe{
-    width:150px;
-    height:110px;
+    width:120px;
+    height:88px;
 }
